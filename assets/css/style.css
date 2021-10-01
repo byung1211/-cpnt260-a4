@@ -135,12 +135,38 @@ nav.menu ul li a:hover {
 
 /* Footer shared by all pages - start */
 footer {
-  background-color:silver;
+  margin-top: 100px;
+  margin-bottom:0;
+  background-color:hsla(0,10%,9%,0.9);
+}
+
+.sociallinks {
+  padding:10px; 
+  margin:0;
+  text-align:center;
+  background-color: #ffffff;
+}
+.copyright {
+  color:#ffffff;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.0rem;
-  text-align: center;
-  padding: 5px 0px;
-  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:40px;
+  margin:0px;
+  text-align:center;
+}
+
+.social-icon {
+  font-size:2.1rem;
+  margin:0 5px;
+  cursor: pointer;
+}
+
+.fb-color {
+  color:#2d55da;
+}
+
+.twitter-color {
+  color:#1DA1F2;
 }
 /* Footer shared by all pages  - end */
 
@@ -408,38 +434,4 @@ main.gallery {
 /* CHECKED STYLES */
 .caption label input[type=checkbox]:checked + i {
   filter: unset;
-}
-
-footer {
-  margin-top: 100px;
-  margin-bottom:0;
-  background-color:hsla(0,10%,9%,0.9);
-}
-
-.sociallinks {
-  padding:10px; 
-  margin:0;
-  text-align:center;
-  background-color:hsla(0,10%,59%,0.9);
-}
-.copyright {
-  padding-top:20px;
-  padding-bottom:40px;
-  margin:0px;
-  color:#ffffff;
-  text-align:center;
-}
-
-.social-icon {
-  font-size:2.1rem;
-  padding:0 5px;
-  cursor: pointer;
-}
-
-.fb-color {
-  color:#3b5998;
-}
-
-.twitter-color {
-  color:#1DA1F2;
 }
