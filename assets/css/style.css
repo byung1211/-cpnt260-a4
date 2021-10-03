@@ -250,6 +250,12 @@ article p {
   font-size: 1.0rem;
   text-align: left;
 }
+.half-width {
+  width:45%
+}
+.full-width {
+  width:100%
+}
 /* Home page - end */
 
 
