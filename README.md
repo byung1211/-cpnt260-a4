@@ -15,7 +15,7 @@ from https://flyclipart.com
 - **pexels-evg-culture-1170986.jpg and more** from https://pixels.com
 - **51285701074_1fcd43dd11_k-1024x643.jpg** from https://ottawahumane.ca/the-cat-killer-that-never-was/
 - **Image links on the services page** from https://www.dreamstime.com
-- **A backgound image** from https://www.wallpaperflare.com/feline-cat-kitten-animal-fur-domestic-pet-kitty-domestic-cat-wallpaper-gxpf/download/3840x2160
+- **A Hero image** from https://www.wallpaperflare.com/feline-cat-kitten-animal-fur-domestic-pet-kitty-domestic-cat-wallpaper-gxpf/download/3840x2160
 
 ### Code Review
 	
