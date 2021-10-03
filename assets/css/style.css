@@ -42,7 +42,7 @@ li {
     display:none;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .main-header {
     flex-direction: column;
     justify-content: start !important;
@@ -68,6 +68,9 @@ li {
   }
   nav.menu ul li{
     padding: 20px 0;
+  }
+  .hero-section {
+    height:300px !important;
   }
 }
 .main-header{
@@ -144,6 +147,7 @@ footer {
   padding:10px; 
   margin:0;
   text-align:center;
+
   background-color: #ffffff;
 }
 .copyright {
@@ -175,6 +179,52 @@ footer {
 /*********                 Custom Styles for Eash Page              *********/
 /****************************************************************************/
 
+/* Hero Section - start */
+
+.hero-section {
+  height:100vh;
+  width:100%;
+  min-width:300px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
+}
+.call-section {
+  color: #ffffff;
+  position: absolute;
+  top: 9.5vw;
+  left:9.5vw;
+}
+.call-section h1 {
+  font-size:2rem;
+}
+.call-section p {
+  font-size:1rem;
+}
+.call-section a {
+  color: #fd5949;
+  background-color:#000;
+  margin-top:10px;
+  padding: 1px 10px;
+  font-family: Verdana;
+  font-weight:600;
+  font-size:1.5rem;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px #fd5949;
+  border-radius: 20px;
+}
+.call-section a:hover {
+  color: #000;
+  background-color:#fff;
+}
+/* Hero Section - End */
+
+
 /* Home page - start */
 main.home {
   margin: 30px 10%;
@@ -183,7 +233,8 @@ main.home header {
   text-align: center;
 }
 article {
-  margin-top: 10px;
+  margin-top: 50px;
+  text-align:center;
 }
 article aside {
   width: 30%;
@@ -198,6 +249,7 @@ aside img {
 article p {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.0rem;
+  text-align: left;
 }
 /* Home page - end */
 
