@@ -11,17 +11,16 @@ from https://flyclipart.com
 - **pexels-evg-culture-1170986.jpg and more** from https://pixels.com
 - **51285701074_1fcd43dd11_k-1024x643.jpg** from https://ottawahumane.ca/the-cat-killer-that-never-was/
 - **Image links on the services page** from https://www.dreamstime.com
-- **A Hero image** from https://www.wallpaperflare.com/feline-cat-kitten-animal-fur-domestic-pet-kitty-domestic-cat-wallpaper-gxpf/download/3840x2160
+- **A backgound image** from https://www.wallpaperflare.com/feline-cat-kitten-animal-fur-domestic-pet-kitty-domestic-cat-wallpaper-gxpf/download/3840x2160
 
 ### Code Review
 	
 - There were no significant bugs that I would write down here working on the landing page.
-- I spent some time to fix some html syntax errors after running html validation.
+- I spent some time fixing some HTML syntax errors after running HTML validation.
 
 	- Fixed: IE-edge to IE=edge in meta tag on the landing page
 	- Fixed: height="650px" to height="650" in iframe tag on the landing page
 	- Fixed: &copy to &copy; by adding the separation character in the footer
-	- Fixed: width="40%" in img tags by moving the properties into the css file.
-- I have improved the services page by linking the book online buttons to the contac page.
-
+	- Fixed: width="40%" in  IMG tags by moving the properties into the CSS file.
+- I have improved the services page by linking the book online buttons to the contact page.
 
