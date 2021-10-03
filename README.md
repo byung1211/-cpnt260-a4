@@ -1,8 +1,8 @@
 # Course Title: Fall 2021 - Web Page Construction Fund.
 ### Author: Byung Uk An
 ### Links to:
-  - **Github Repo:** https://github.com/byung1211/cpnt260-a1
-  - **Github Pages Site:** https://byung1211.github.io/cpnt260-a1/index.html
+  - **Github Repo:** https://github.com/byung1211/cpnt260-a4
+  - **Github Pages Site:** https://byung1211.github.io/cpnt260-a4/index.html
   
 ### Client information
   - **Who is your client:** Someone who loves cat and needs help or care services.
@@ -19,4 +19,13 @@ from https://flyclipart.com
 
 ### Code Review
 	
+- There were no significant bugs that I would write down here working on the landing page.
+- I spent some time to fix some html syntax errors after running html validation.
+
+	- Fixed: IE-edge to IE=edge in meta tag on the landing page
+	- Fixed: height="650px" to height="650" in iframe tag on the landing page
+	- Fixed: &copy to &copy; by adding the separation character in the footer
+	- Fixed: width="40%" in img tags by moving the properties into the css file.
+- I have improved the services page by linking the book online buttons to the contac page.
+
 
